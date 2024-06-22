@@ -13,7 +13,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+   https://github.com/CharudattaGhute/Ticket_raiser_managment.git
     cd your-repo-name
     ```
 
