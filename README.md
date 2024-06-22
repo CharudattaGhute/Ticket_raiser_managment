@@ -58,13 +58,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
     
 - **Get All Users**
     - **URL:** `GET /api/getalluser`
-    - **Response:**
-        ```json
-        [
-          { ... },
-          { ... }
-        ]
-        ```
+   
 
 - **Delete User**
     - **URL:** `DELETE /api/deleteuser/:id`
@@ -108,10 +102,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
 
 - **Delete Ticket**
     - **URL:** `DELETE /api/deleteticket/:id`
-    - **Response:**
-        ```json
-        { "message": "Ticket deleted successfully" }
-        ```
+    
 
 - **Update Ticket**
     - **URL:** `PUT /api/updateticket/:id`
