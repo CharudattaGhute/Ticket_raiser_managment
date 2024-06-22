@@ -55,14 +55,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
           "modifiedAt": "2024-12-11T18:30:00.000+00:00"
         }
         ```
-    - **Response:**
-        ```json
-        {
-          "message": "User created successfully",
-          "newUser": { ... }
-        }
-        ```
-
+    
 - **Get All Users**
     - **URL:** `GET /api/getalluser`
     - **Response:**
@@ -75,10 +68,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
 
 - **Delete User**
     - **URL:** `DELETE /api/deleteuser/:id`
-    - **Response:**
-        ```json
-        { "message": "User deleted successfully" }
-        ```
+    
 
 - **Update User**
     - **URL:** `PUT /api/updateuser/:id`
@@ -88,10 +78,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
           "designation": "Admin"
         }
         ```
-    - **Response:**
-        ```json
-        { ... }
-        ```
+   
 
 ### Ticket Endpoints
 
@@ -113,23 +100,11 @@ This project is a RESTful API for managing users and tickets. It is built using 
           "modifiedAt": "2024-07-20T18:30:00.000+00:00"
         }
         ```
-    - **Response:**
-        ```json
-        {
-          "message": "Ticket created successfully",
-          "newTicket": { ... }
-        }
-        ```
+    
 
 - **Get All Tickets**
     - **URL:** `GET /api/getallticket`
-    - **Response:**
-        ```json
-        [
-          { ... },
-          { ... }
-        ]
-        ```
+   
 
 - **Delete Ticket**
     - **URL:** `DELETE /api/deleteticket/:id`
@@ -146,10 +121,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
           "status": "Accepted"
         }
         ```
-    - **Response:**
-        ```json
-        { ... }
-        ```
+    
 
 ## Error Handling
 
