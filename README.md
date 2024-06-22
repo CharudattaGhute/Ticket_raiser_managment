@@ -24,7 +24,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
 
 3. Create a `.env` file in the root directory and add your MongoDB URI:
     ```env
-    MONGODB_URI=mongodb+srv://ghutecharudatta:Charudatta@cluster0.prqkren.mongodb.net/Ticket_managment
+        MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.prqkren.mongodb.net/appoinment
     ```
 
 4. Start the server:
