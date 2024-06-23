@@ -1,4 +1,3 @@
-# Ticket_raiser_managment
 # User and Ticket Management API
 
 This project is a RESTful API for managing users and tickets. It is built using Node.js, Express, and MongoDB. The API allows you to create, read, update, and delete users and tickets.
