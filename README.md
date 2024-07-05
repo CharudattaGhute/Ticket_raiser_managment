@@ -19,7 +19,7 @@ This project is a RESTful API for managing users and tickets. It is built using 
 
 2. Install dependencies:
     ```sh
-    npm install
+    npm install express
     ```
 
 3. Create a `.env` file in the root directory and add your MongoDB URI:
