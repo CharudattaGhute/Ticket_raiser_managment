@@ -1,4 +1,4 @@
-# User and Ticket Management API
+# User and Ticket Management APi
 
 This project is a REST API for managing users and tickets. It is built using Node.js, Express, and MongoDB. The API allows you to create, read, update, and delete users and tickets.
 ## Prerequisites
